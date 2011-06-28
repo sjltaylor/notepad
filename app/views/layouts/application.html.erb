@@ -2,17 +2,11 @@
 <html>
 <head>
   <title>Notepad</title>
-  <%= stylesheet_link_tag :all %>
-  <%= yield :head %>
+  <%= include_stylesheets :all %>
+  <%= include_javascripts :all %>
   <%= csrf_meta_tag %>
 </head>
 <body>
-<div id="main">
-  <div id="header">
-    <h1><%= link_to "NotePad", root_path %></h1>
-  </div>
-  <%= yield %>
-</div>
-
+<%= yield %>
 </body>
 </html>

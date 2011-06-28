@@ -1,0 +1,17 @@
+body {
+  font-family: 'Dom Casual Std';
+	font-weight: normal;
+	font-size: 22px;
+}
+
+input {
+	font-family: inherit;
+	padding: 5px;
+	margin: 10px;
+	font-size: 1.25em;
+	width: 500px;
+	border: none;
+	border-bottom: dashed 3px black;
+	background-color: #FFDD00;
+	border-radius: 10px 10px 0px 0px;
+}

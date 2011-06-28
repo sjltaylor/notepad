@@ -1,0 +1,12 @@
+embed_assets: on
+
+javascripts:
+  all:
+    - public/vendor/**/*
+    - public/lib/**/*.js
+    - public/main.js
+    - public/app/**/*.js
+
+stylesheets:
+  all:
+    - public/css/**/*.css
